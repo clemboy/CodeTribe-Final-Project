@@ -1,0 +1,262 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: 
+    
+   
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: ;
+    color: white;
+    padding: 2rem 4rem;
+}
+
+.navlink {
+    display: flex;
+    gap: 2rem;
+}
+
+.navlink > a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+ }
+
+ .maincontent {
+    background-color: #2d2640;
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    height: 580px;
+    color: white;
+
+ }
+
+ .line {
+    height: 1px;
+    width: 120px;
+    background-color: white;
+
+ }
+ .maintext {
+    padding-left: 120px;
+    padding-right: 90px;
+ }
+
+ .mainimage {
+    padding-right: 125px;
+ }
+ 
+
+ h4 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: 300%  
+ }
+
+ p {
+    margin-bottom: 50px;
+ }
+
+ .spancontent {
+    border: 1px solid white;
+    padding: 6px 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Karla', sans-serif;
+ }
+ 
+ .subcontent {
+    margin-top: 300px;
+ }
+ .subcontent >h4 {
+    color: red;
+ }
+ .linetwo {
+    margin-bottom:-50px;
+    height: 2px;
+    width: 120px;
+    background-color: lightgrey;
+ }
+
+ .subcontent >h4 {
+   margin-bottom: 70px;
+ }
+ .subcontent {
+   padding-left: 120px;
+ }
+
+ .who-we-are {
+   display: flex;
+   padding-right: 120px;
+   padding-bottom: 100px;
+   justify-content: space-between;
+ }
+
+ h2 {
+   padding-top: 30px;
+   padding-bottom: 20px;
+ }
+ .subcontent >h4 {
+   color: hsl(270, 9%, 17%)
+ }
+.headings {
+   color: hsl(270, 9%, 17%)
+}
+
+.para {
+   margin-bottom: 20px;
+   line-height: 25px;
+   color: hsl(273, 4%, 51%)
+
+   
+}
+
+.how-we-work {
+   background-image: url("assets/images/bg-pattern-how-we-work-desktop.svg");
+   background-repeat: no-repeat;
+   background-attachment:scroll;
+   background-size: 350px;
+   background-position: right;
+   background-color: #2d2640;
+   margin-bottom: 100px;
+   color: white;
+   margin-left: 120px;
+   margin-right: 120px;
+   display: flex;
+   align-items: center;
+   gap: 480px;
+   font-family: 'Karla', sans-serif;
+   font-weight: bold;
+   display: flex;
+   gap: 350px;
+   
+}
+
+.bighead {
+   padding-left: 60px;
+   margin-top: 50px;
+}
+
+.bbox {
+   border: 1px solid white;
+   padding: 6px 25px; 
+   
+        
+}
+
+ .aboutUs {
+   background-image: url("assets/images/bg-pattern-footer-desktop.svg");
+   background-repeat: no-repeat;
+   border-top: 2px solid rgb(235, 229, 229);
+   margin-left: 120px;
+   display: flex;
+   justify-content: space-between;
+   text-transform: uppercase;
+   font-family: 'Karla', sans-serif;
+   font-weight: 700;
+   color: hsl(281, 14%, 23%);
+   margin-right: 160px;
+   line-height: 28px;
+   margin-bottom: 20px;
+  
+  
+   
+ }
+
+ .bottomH {
+   color: hsl(273, 4%, 51%);
+   margin-top: 30px;
+   
+ }
+
+ .mylogo {
+   margin-left: 55px;
+ }
+
+ .socialm {
+   margin-right: 100px;
+   display: flex;
+   gap: 15px;
+ }
+ 
+ .navlink >a{
+   text-transform: uppercase;
+   font-family: 'Karla', sans-serif;
+   font-weight: 600;
+    
+ }
+
+  .navlink > a {
+   color: grey;
+ }
+
+ a:last-child {
+   color: #2d2640;
+   font-weight: 600;
+   border: 1px solid #2d2640;
+ }
+a:hover {
+   color: #2d2640;
+}
+
+.myhover {
+   padding:3px 3px;
+   margin-top: -3px;
+}
+.myhover:hover{
+   background-color: #2d2640;
+   color: white;
+}
+.spancontent:hover {
+   background-color: white;
+   color: #2d2640;
+}
+.bbox:hover {
+   background-color: white;
+   color:#2d2640;
+}
+
+.socialm:hover {
+  background-color: #2d2640;
+}
+
+
+.maincontent {
+   background-image: url("assets/images/bg-pattern-intro-left-desktop.svg"), url("assets/images/bg-pattern-intro-right-desktop.svg");
+   background-repeat: no-repeat, no-repeat;
+   background-position: left bottom, right top;
+ 
+  
+}
+
+.attribution >a {
+   font-size: medium;
+   text-decoration: none;
+   border: 0px;
+   color:  #0000EE;
+
+}
+.clean >a {
+   text-decoration: none;
+}
+
+.blog {
+   display: flex;
+   justify-content: center;
+}
+.maincontenT {
+   background-color: #897fa5;
+   display: flex;
+   justify-content: center;
+   color: white;
+   margin-bottom: 350px;
+   font-size: x-large;
+}
+
